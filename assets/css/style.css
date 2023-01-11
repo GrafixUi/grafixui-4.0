@@ -1,0 +1,54 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+.grad{
+	background-color: #ffffff;
+    background-image: url(../img/pexels-cowomen-2041627.jpg);
+	/* animation: gradient 50s ease infinite; */
+	height: 60vh;
+  }
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+.hero-h1{
+    font-size:80px;
+}
+
+marquee {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(90, 83, 83, 0.13);
+}
+
+@media (max-width:550px) {
+  .grad{
+    height: 80vh;
+  }
+  marquee{
+      color: rgba(255, 255, 255, 0.287);
+  }
+}
+
+@media (max-width:390px) {
+	.grad{
+		height: 60vh;
+	}
+}
+
+@media (max-width:800px) {
+	.grad{
+		height: 40vh;
+	}
+}
