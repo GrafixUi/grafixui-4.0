@@ -57,14 +57,14 @@ marquee {
 }
 
 
-body {
+/* body {
 	display: flex;
 	align-items: center;
 	position: relative;
 	background: linear-gradient(to bottom right, #070630 0%, #060454 100%);
 	min-height: 100vh;
-}
-.animation-container {
+} */
+/* .animation-container {
 	display: block;
 	position: relative;
 	width: 800px;
@@ -231,8 +231,8 @@ body {
 		opacity: 0;
 		transform: scale(3);
    }
-}
-@keyframes boom-triangle-big {
+} */
+/* @keyframes boom-triangle-big {
 	0% {
 		opacity: 0;
    }
@@ -267,7 +267,7 @@ body {
 		opacity: 0;
 		transform: scale(2) translate(-70px, -30px);
    }
-}
+} */
 .footer {
 	color: white;
 	font-size: 10px;
