@@ -555,8 +555,7 @@
             </div>
           </div>
         </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
+      </section>
 
       <section class="py-5 mb-8">
         <div class="bg-holder" style="background-image:url();background-position:left bottom;background-size:auto;"></div>
@@ -568,25 +567,28 @@
             <div class="col-lg-5 mb-5">
               <div class="card card-bg p-2">
                 <div class="card-body">
-                  <form>
+                  <form method="post">
                     <div class="row mb-3 input-group-icon"><label class="col-sm-2 col-form-label visually-hidden" for="inputName">Name</label>
-                      <div class="col-sm-12"><input class="form-control rounded-pill border-white input-box" id="inputName name" type="text" name="name" placeholder="Write your name" /><svg class="bi bi-person-fill input-box-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <div class="col-sm-12"><input class="form-control rounded-pill border-white input-box" id="name" type="text" name="name" placeholder="Write your name" /><svg class="bi bi-person-fill input-box-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                           <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                         </svg></div>
                     </div>
                     <div class="row mb-3 input-group-icon"><label class="col-sm-2 col-form-label visually-hidden" for="inputEmail3">Email</label>
-                      <div class="col-sm-12"><input class="form-control rounded-pill border-white input-box" id="inputEmail3 email"  type="email" placeholder="Write your email" /><svg class="bi bi-envelope-fill input-box-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <div class="col-sm-12"><input class="form-control rounded-pill border-white input-box" id="email"  type="email" placeholder="Write your email" /><svg class="bi bi-envelope-fill input-box-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                           <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"></path>
                         </svg></div>
                     </div>
                     <div class="row mb-3 input-group-text-icon"><label class="col-sm-2 col-form-label visually-hidden" for="floatingTextarea2">Comments</label>
-                      <div class="col-sm-12"><textarea class="form-control rounded-3 border-white input-box" id="floatingTextarea2 comments" placeholder="Write your message" style="height: 150px"></textarea><svg class="bi bi-pencil-fill input-box-text-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <div class="col-sm-12"><input class="form-control rounded-3 border-white input-box" id="comments" placeholder="Write your message" style="height: 150px"></input><svg class="bi bi-pencil-fill input-box-text-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                           <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"></path>
                         </svg></div>
                     </div>
                     <div class="row">
                       <div class="col-sm-12">
-                        <div class="d-grid"><input type="submit" value="Submit" id="submit" class="btn hover-top btn-glow btn-klean rounded-pill"></div>
+                        <div class="d-grid">
+                          <input type="submit" value="Submit" id="submit" class="btn hover-top btn-glow btn-klean rounded-pill">
+                            </input>
+                          </div>
                       </div>
                     </div>
                   </form>
@@ -621,20 +623,7 @@
         </div>
       </section>
 
-      <!-- <section>
-        <div class="bg-holder" style="background-image:url();background-position:center;background-size:cover;"></div>
-        
-        <div class="bg-holder" style="background-image:url();background-position:right top;background-size:auto;margin-top:-38px;margin-left:-200px;"></div>
-        
-        <div class="container">
-          <div class="row flex-center circle-blend circle-blend-right circle-pink">
-            <div class="col-xxl-9 py-5 text-center">
-              <h1 class="fw-bold mb-4 text-gradient fs-6"></h1>
-              <p class="mb-6 mx-xxl-11"></p><a class="btn hover-top btn-glow btn-klean rounded-pill" href="#">Download Free</a>
-            </div>
-          </div>
-        </div>
-      </section> -->
+    
 
       <section class="pb-0 pt-6">
         <div class="bg-holder" style="background-image:url(assets/img/illustrations/footer-bg.png);background-position:center;background-size:cover;"></div>
@@ -700,6 +689,44 @@
     <script src="assets/js/theme.js"></script>
     <script src="./vendors/index.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <!-- Form api  -->
+    <script>
+       var submit = document.getElementById("submit");
+    submit.addEventListener("click", function(event){
+        event.preventDefault();
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var comments = document.getElementById("comments").value;
+        var data = {
+            name: name,
+            email: email,
+            comments: comments
+        };
+        var sheetId = "12z0Yj2Mfqyn6352MHy4a_hK93saGpSbyF5o_5ttU-QI";
+        var apiKey = "AIzaSyCfOKj_xBkiVvUSclwuQp0sLo0YjPHYq3w";
+        
+        var url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/Sheet1!A1:C1:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS&key=${apiKey}`;
+        fetch(url, {
+            method: "POST",
+            body: JSON.stringify({
+                range: "Sheet1",
+                majorDimension: "ROWS",
+                values: [
+                    [data.name, data.email, data.comments]
+                ]
+            }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.log(error));
+    });
+
+
+    </script>
   </body>
 
 </html>
