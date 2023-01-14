@@ -4,9 +4,9 @@ html{
 
 
 .grad{
-	background-color: #ffffff;
-    background-image: url(../img/bgrnd.jpg);
-	/* animation: gradient 50s ease infinite; */
+	/* background-color: #ffffff; */
+    /* background-image: url(../img/bgrnd.jpg); */
+	animation: gradient 50s ease infinite;
 	height: 60vh;
   }
 
